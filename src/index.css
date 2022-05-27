@@ -4,10 +4,22 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #1a022b, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #29026c, #011209); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-repeat: no-repeat;
+background-size: cover;  
+  -moz-osx-font-smoothing: grayscale;
+  background-attachment: fixed;
+  color: white;
+  
+}
+html {
+  height:100%;
+  }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    
 }

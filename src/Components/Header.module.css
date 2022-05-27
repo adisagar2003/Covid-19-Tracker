@@ -1,0 +1,82 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=IBM+Plex+Serif:wght@100;300&family=Open+Sans:wght@600&family=Roboto+Condensed:wght@300&family=Roboto+Serif:opsz,wght@8..144,200;8..144,300&family=Rubik:wght@300&family=Water+Brush&display=swap');
+
+@font-face {
+    font-family: "Fauna";
+    src: url(
+
+    "../Fonts/Fauna.ttf"
+    ) format("truetype");
+    font-weight: 900;
+}
+.title{
+    padding:10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.name{
+    opacity: 0.7;
+    color: rgb(231, 230, 230);
+    letter-spacing: 1px;
+    font-weight: 800;
+    margin-left: 50%;
+    font-size: 12px;
+    
+    
+}
+
+.trackerTitle{
+    font-weight: 700;
+    margin-left: 50%;
+    position: relative;
+    top: 20px;
+    right: 190px;
+
+    font-size: 30px;
+    letter-spacing: 10px;
+   font-family: 'Fauna';   
+   opacity: 0.8;
+   text-decoration: line-through;
+   text-decoration-thickness: 2px;
+animation: fade-in 2s ease;
+
+}
+
+
+.whitebox{
+    background-color: rgb(81, 73, 229);
+    opacity: 0.3;
+    min-height: 20px;
+    position: relative;
+    bottom: -50px; 
+    left: 400px;
+    max-width: 700px;
+
+}
+
+
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+        
+    }
+
+    100%{
+        opacity: 0.8;
+
+    }
+    
+}
+@media (max-width: 575px) {
+    .trackerTitle{
+        font-size: 35px;
+        letter-spacing: 4px;
+        margin-right: 30px;
+      
+      white-space: nowrap;
+    }
+    .title{
+        position: relative;
+        left: 60px;
+    }
+}
