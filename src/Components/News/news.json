@@ -1,0 +1,6 @@
+{
+    "news":"return <RingLoader color='purple' loading={loading}  size={150} />"
+    ,"date":"27 May, 2022",
+    "news2":""
+    
+}

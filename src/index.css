@@ -6,8 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
 
   background: #c31432;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #1a022b, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #29026c, #011209); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-image: url('../src/Components/darkBlurAbstract.jpg');
 background-repeat: no-repeat;
 background-size: cover;  
   -moz-osx-font-smoothing: grayscale;

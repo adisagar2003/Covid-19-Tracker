@@ -1,0 +1,21 @@
+.navbar{
+    margin-left: 500px;
+
+}
+.navLink{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.629);
+    padding:29px;
+ 
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.308);
+    font-family: "fauna";
+    transition: 1s;
+    position: relative;
+    top: 150px;
+}
+.navLink:hover{
+    color: rgb(40, 185, 211);
+    border: 1px solid white;
+    border-radius: 12px;
+}

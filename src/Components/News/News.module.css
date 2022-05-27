@@ -1,0 +1,21 @@
+.layout{
+    float: right;
+    margin-right: 220px;
+    margin-top: 200px;
+    width: 350px;
+    height: 250px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.458);
+    border-radius: 13px;
+    font-family: 'fauna';
+    overflow: auto;
+    color: rgba(63, 197, 224, 0.575);
+}
+
+.description{
+    margin-right: 40px;
+    margin-top: 20px;
+}
+::-webkit-scrollbar {
+    display: none;
+  }

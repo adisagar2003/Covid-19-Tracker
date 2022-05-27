@@ -1,0 +1,21 @@
+.layout{
+        
+    max-height: 500px;
+    max-width: 400px;
+    min-height: 330px;
+    padding: 10px;
+    margin-left: 270px;
+    background-color: #0000005c;
+    margin-top: 200px;
+    border-radius: 9px;
+    border: none;
+    font-family: 'fauna';
+}
+
+.dataHeading{
+    color: rgba(0, 255, 255, 0.41);
+    position: relative;
+    top: 42px;
+    left: 24px;
+    text-decoration: underline;
+}

@@ -4,10 +4,18 @@ import { Doughnut } from 'react-chartjs-2';
 import styles from './Stat.module.css'
 import { Bar } from 'react-chartjs-2';
 import FetchAPI from '../Components/Hooks/FetchAPI';
+import Loader from 'react-loaders';
 import axios from 'axios';
+
+import RingLoader from "react-spinners/RingLoader"
 ChartJS.register(ArcElement, Tooltip, Legend);
 function Stat1() {
+
+
   const {response,err,loading} = FetchAPI()
+  
+
+
 
   let Positive = response.data[0].positive;
   let Negative = response.data[0].negative;
@@ -20,7 +28,7 @@ function Stat1() {
 
 
   
-  
+  console.log(loading)
   
   const [chartData, setChartData] = useState({})
   
@@ -85,15 +93,22 @@ function Stat1() {
       },
     ],
   };
+  if (loading){
+    return <RingLoader color='purple' loading={loading}  size={150} />
+    
+  }
+  else{
+    return (
+
+    
+      <div className={styles.layout}> 
+      <div className={styles.graph}>
+  <Doughnut data={data}  
+    options={{ maintainAspectRatio: false }} />
+      </div></div>
+    )
+  }
   
-  
-  return (
-    <div className={styles.layout}>
-    <div className={styles.graph}>
-<Doughnut data={data}  
-  options={{ maintainAspectRatio: false }} />
-    </div></div>
-  )
 }
 
 export default Stat1
