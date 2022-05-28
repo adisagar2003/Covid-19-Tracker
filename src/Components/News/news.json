@@ -1,6 +1,266 @@
 {
-    "news":"return <RingLoader color='purple' loading={loading}  size={150} />"
-    ,"date":"27 May, 2022",
-    "news2":""
-    
-}
+    "status": "ok",
+    "totalResults": 2177,
+    "articles": [
+    {
+    "source": {
+    "id": "engadget",
+    "name": "Engadget"
+    },
+    "author": "Valentina Palladino",
+    "title": "The best Memorial Day tech sales we could find",
+    "description": "Memorial Day is nearly here and, as usual, you can find a number of solid gadget deals across the web ahead of the holiday. A few Apple devices are on sale, including the latest AirPods for $150, and you can pick up a bunch of outdoor gear from the likes of S…",
+    "url": "https://www.engadget.com/best-memorial-day-2022-tech-sales-154542300.html",
+    "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-10/3f4365a0-359a-11ec-bdaf-31d6f36d5be0",
+    "publishedAt": "2022-05-27T15:45:42Z",
+    "content": "Memorial Day is nearly here and, as usual, you can find a number of solid gadget deals across the web ahead of the holiday. A few Apple devices are on sale, including the latest AirPods for $150, and… [+9422 chars]"
+    },
+    {
+    "source": {
+    "id": "reuters",
+    "name": "Reuters"
+    },
+    "author": null,
+    "title": "Apple can't dodge rival app store Cydia's antitrust lawsuit - Reuters",
+    "description": "Apple Inc on Thursday lost a bid to dismiss <a href=\"https://fingfx.thomsonreuters.com/gfx/legaldocs/dwpkrnlbovm/FAC-saurikit-v-apple-2022-amended.pdf\" target=\"_blank\">a lawsuit</a> in California federal court from competing app store Cydia, which accused the…",
+    "url": "https://www.reuters.com/legal/transactional/apple-cant-dodge-rival-app-store-cydias-antitrust-lawsuit-2022-05-27/",
+    "urlToImage": "https://www.reuters.com/resizer/zaWj4ss6F4eVHo_OvcM8v3j5Mh8=/728x381/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/UF63NVK3HJP3RH4FZCSNIEESRQ.jpg",
+    "publishedAt": "2022-05-27T17:04:00Z",
+    "content": "<ul><li>\r\nSummary</li><li>\r\nLaw firms</li><li>\r\nRelated documents</li></ul>\r\n(Reuters) - Apple Inc on Thursday lost a bid to dismiss a lawsuit in California federal court from competing app store Cyd… [+2685 chars]"
+    },
+    {
+    "source": {
+    "id": "reuters",
+    "name": "Reuters"
+    },
+    "author": null,
+    "title": "Russia opens cases against Google, other foreign tech over data storage - Reuters",
+    "description": "Russia's communications regulator Roskomnadzor said on Friday it had opened administrative cases against Alphabet Inc's <a href=\"https://www.reuters.com/companies/GOOGL.O\" target=\"_blank\">(GOOGL.O)</a> Google and six other foreign technology companies for all…",
+    "url": "https://www.reuters.com/technology/russia-opens-cases-against-google-other-foreign-tech-over-data-storage-2022-05-27/",
+    "urlToImage": "https://www.reuters.com/resizer/FVghqlTE02ZQ7o532Fg-HiIYu3E=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/XPE5V4XGYBIK3PCH6UAUCY5QGI.jpg",
+    "publishedAt": "2022-05-27T14:44:00Z",
+    "content": "May 27 (Reuters) - Russia's communications regulator Roskomnadzor said on Friday it had opened administrative cases against Alphabet Inc's (GOOGL.O) Google and six other foreign technology companies … [+1158 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "The Guardian"
+    },
+    "author": "Jyoti Madhusoodanan",
+    "title": "Will this fruit-picking robot transform agriculture?",
+    "description": "Creating a machine that can perform the delicate work of picking an apple is tricky – and farmworkers say it could be a benefitRobots can do a lot. They build cars in factories. They sort goods in Amazon warehouses. Robotic dogs can, allegedly and a little cr…",
+    "url": "https://amp.theguardian.com/us-news/2022/may/28/robot-agriculture-farming-artificial-intelligence",
+    "urlToImage": "https://i.guim.co.uk/img/media/5955125ded61a83148e6adfb0c7634702293d4a9/86_0_3347_2008/master/3347.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=95487721fc1eddb17cd7aa00e1a1df3a",
+    "publishedAt": "2022-05-28T09:30:27Z",
+    "content": "Robots can do a lot. They build cars in factories. They sort goods in Amazon warehouses. Robotic dogs can, allegedly and a little creepily, make us safer by patrolling our streets. But there are some… [+6314 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "The Guardian"
+    },
+    "author": "Grace Dent",
+    "title": "Apricity, London W1: ‘The menu will send vegetarians doolally with joy’ – restaurant review | Grace Dent on restaurants",
+    "description": "‘Though there are meat dishes, too, we didn’t order them because the vegetable offerings just felt instinctively better’Restaurants such as today’s always give me a sense of disquiet before I set off. Perhaps it’s their sense of gentle righteousness that puts…",
+    "url": "https://amp.theguardian.com/food/2022/may/27/apricity-london-w1-grace-dent-restaurant-review",
+    "urlToImage": "https://i.guim.co.uk/img/media/9848575a41658e312ab0dc7132ccc846b77feb37/0_84_5007_3005/master/5007.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b509cd049f477d0305676f0414294fc3",
+    "publishedAt": "2022-05-27T11:00:16Z",
+    "content": "Restaurants such as todays always give me a sense of disquiet before I set off. Perhaps its their sense of gentle righteousness that puts me on the back foot. We all, roughly speaking, would love pla… [+5186 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "The Guardian"
+    },
+    "author": "Ryan Gilbey",
+    "title": "Ray Liotta obituary",
+    "description": "Actor whose charred handsomeness and mercurial qualities led to magnetic performances in Goodfellas and Something Wild‘As far back as I can remember, I always wanted to be a gangster.” Those words, delivered with lingering fascination by the actor Ray Liotta,…",
+    "url": "https://amp.theguardian.com/film/2022/may/27/ray-liotta-obituary",
+    "urlToImage": "https://i.guim.co.uk/img/media/eb7c2778481a7fe4c73ba3c83e5c917a00297f70/0_135_3599_2160/master/3599.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c6b7315ea76c2c464880d83978e67ce4",
+    "publishedAt": "2022-05-27T16:39:55Z",
+    "content": "As far back as I can remember, I always wanted to be a gangster. Those words, delivered with lingering fascination by the actor Ray Liotta, who has died unexpectedly aged 67, ushered audiences into M… [+7908 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "The Guardian"
+    },
+    "author": "Hadley Freeman",
+    "title": "‘High drama, with the lowest stakes’ – what really happened at the Wagatha Christie trial",
+    "description": "Vardy v Rooney wasn’t just a story about tabloids, celebrity and social media; it was an insight into modern Britain itself. I took a front-row seat for seven wild days at the high court“This is not entertainment,” Rebekah Vardy’s barrister, Hugh Tomlinson QC…",
+    "url": "https://amp.theguardian.com/lifeandstyle/2022/may/28/wagatha-christie-vardy-v-rooney-celebrity-trial",
+    "urlToImage": "https://i.guim.co.uk/img/media/1e5e0745d80355c756b908669d0d0de77005bd07/0_503_3140_1883/master/3140.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=27f1e52ba19f6248ce7cf864830ff9d7",
+    "publishedAt": "2022-05-28T06:00:25Z",
+    "content": "This is not entertainment, Rebekah Vardys barrister, Hugh Tomlinson QC, declared at the opening of the trial referred to at the Royal Courts of Justice as Vardy v Rooney, but known everywhere else as… [+27950 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "MacRumors"
+    },
+    "author": "Mitchel Broussard",
+    "title": "Memorial Day Deals: Shop the Weekend's Best Tech Accessory Sales From Twelve South, Satechi, Nomad, More",
+    "description": "We're only a few days away from Memorial Day in the United States on Monday, May 30, and numerous retailers have opened up major discounts on Apple-related products as we head into the long weekend. Below you'll find markdowns from popular accessory companies…",
+    "url": "https://www.macrumors.com/2022/05/27/memorial-day-deals-2022/",
+    "urlToImage": "https://images.macrumors.com/t/kabhOguRlXrbMLKwi_R45ByEZiM=/2500x/article-new/2022/05/memorial-day-2022-feature.jpg",
+    "publishedAt": "2022-05-27T13:46:38Z",
+    "content": "We're only a few days away from Memorial Day in the United States on Monday, May 30, and numerous retailers have opened up major discounts on Apple-related products as we head into the long weekend. … [+2813 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "MacRumors"
+    },
+    "author": "Juli Clover",
+    "title": "iOS 16 Wishlist: Features MacRumors Readers Want to See in the Next Version of iOS",
+    "description": "There's just over a week to go until the 2022 Worldwide Developers Conference, which is one of the biggest Apple events of the year. We've heard surprisingly little about iOS 16 this year, so we're in for some major surprises when June 6 rolls around.\n\n\n\n\n\nAs…",
+    "url": "https://www.macrumors.com/2022/05/27/ios-16-wishlist/",
+    "urlToImage": "https://images.macrumors.com/t/65JiC397iE1UbCCF1E9Jd5MkFK4=/3840x/article-new/2022/01/iOS-16-mock-for-article.jpg",
+    "publishedAt": "2022-05-27T20:13:03Z",
+    "content": "There's just over a week to go until the 2022 Worldwide Developers Conference, which is one of the biggest Apple events of the year. We've heard surprisingly little about iOS 16 this year, so we're i… [+3181 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "NPR"
+    },
+    "author": "NPR Staff",
+    "title": "12 stats to help inform the gun control debate",
+    "description": "The debate over stricter gun control laws intensifies as details emerge from the Robb Elementary School shooting in Uvalde, Texas.",
+    "url": "https://www.npr.org/2022/05/27/1101774780/gun-control-debate-statistics",
+    "urlToImage": "https://media.npr.org/assets/img/2022/05/27/gettyimages-1240941075_wide-3525407f52ea737d5b8f865f6013a0281a99f71c.jpg?s=1400",
+    "publishedAt": "2022-05-27T20:52:07Z",
+    "content": "Gun control advocates hold signs during a protest at Discovery Green across from the National Rifle Association Annual Meeting at the George R. Brown Convention Center on Friday in Houston, Texas.\r\nE… [+2029 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Slashdot.org"
+    },
+    "author": "msmash",
+    "title": "Tech Industry Groups Are Watering Down Attempts at Privacy Regulation, One State at a Time",
+    "description": "Coordinated industry lobbying is overwhelming the scattered efforts of consumer groups and privacy-minded lawmakers. From a report: In late 2019, Utah state senator Kirk Cullimore got a phone call from one of his constituents, a lawyer who represented technol…",
+    "url": "https://tech.slashdot.org/story/22/05/27/0952233/tech-industry-groups-are-watering-down-attempts-at-privacy-regulation-one-state-at-a-time",
+    "urlToImage": "https://a.fsdn.com/sd/topics/business_64.png",
+    "publishedAt": "2022-05-27T14:40:00Z",
+    "content": "In late 2019, Utah state senator Kirk Cullimore got a phone call from one of his constituents, a lawyer who represented technology companies in California. \"He said, 'I think the businesses I represe… [+1785 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Entrepreneur"
+    },
+    "author": "Entrepreneur Store",
+    "title": "If You Need a New Laptop, Consider Buying Refurbished and Save Money",
+    "description": "Get a refurbished MacBook Air for about $300.",
+    "url": "https://www.entrepreneur.com/article/428029",
+    "urlToImage": "https://assets.entrepreneur.com/content/3x2/2000/1653078509-Ent-AppleMacBook.jpeg",
+    "publishedAt": "2022-05-27T13:30:00Z",
+    "content": "They say a carpenter is only as good as their tools. Well, to a certain extent, that's true for entrepreneurs, too. You can't run a business well if your computer is falling apart and constantly shut… [+1568 chars]"
+    },
+    {
+    "source": {
+    "id": "techradar",
+    "name": "TechRadar"
+    },
+    "author": "Mackenzie Frazier",
+    "title": "The Apple Watch 7 on sale for a record-low price is today's best Memorial Day deal - TechRadar",
+    "description": "<ol><li>The Apple Watch 7 on sale for a record-low price is today's best Memorial Day deal  TechRadar\r\n</li><li>Apple Watch Series 7 models drop back down to a record low of $329  Engadget\r\n</li><li>Compared: New Apple Watch versus Apple Certified Refurbished…",
+    "url": "https://www.techradar.com/deals/the-apple-watch-7-on-sale-for-a-record-low-price-is-todays-best-memorial-day-deal",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/XmPzwwd6eGk4AEWmaLtRV7-1200-80.jpg",
+    "publishedAt": "2022-05-27T15:33:19Z",
+    "content": "It's officially the weekend which means Memorial Day sales are up and running, and we've just spotted a can't-be-missed deal on the best-selling Apple Watch 7. Amazon has Apple's latest and greatest … [+3031 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Hipertextual"
+    },
+    "author": "Hipertextual (Redacción)",
+    "title": "Aprovecha el estreno de ‘Obi-Wan Kenobi’ y ahórrate dos meses de suscripción a Disney+",
+    "description": "Obi-Wan Kenobi, la nueva serie de Disney+ ya está disponible. Y para aprovechar el estreno más esperado del año, junto con todo lo que llegará en los próximos meses y que se anunció ayer en la Star Wars Celebration, aprovecha la oferta de Disney+ y ahórrate d…",
+    "url": "https://hipertextual.com/2022/05/como-tener-disney-gratis",
+    "urlToImage": "https://hipertextual.com/wp-content/uploads/2022/05/wallpapersden.com_obi-wan-kenobi-hd-star-wars_2560x1440-1.jpg",
+    "publishedAt": "2022-05-27T07:33:52Z",
+    "content": "Obi-Wan Kenobi, la nueva serie de Disney+ ya está disponible. Y para aprovechar el estreno más esperado del año, junto con todo lo que llegará en los próximos meses y que se anunció ayer en la Star W… [+3086 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Hipertextual"
+    },
+    "author": "Tomás Rivero",
+    "title": "Esta IA de reconocimiento facial pone tus fotos más privadas al servicio de cualquiera",
+    "description": "PimEyes es, en la actualidad, una de las inteligencias artificiales que más peligro representa para la privacidad de cualquier persona. De hecho, podría resultar incluso más perjudicial que la controvertida tecnología de Clearview AI; y es que a diferencia de…",
+    "url": "https://hipertextual.com/2022/05/ia-reconocimiento-facial-pone-fotos-privadas-servicio-cualquiera-pimeyes",
+    "urlToImage": "https://i0.wp.com/hipertextual.com/wp-content/uploads/2022/05/Reconocimiento-facial-privacidad-scaled.jpg?fit=2560%2C1439&quality=50&strip=all&ssl=1",
+    "publishedAt": "2022-05-28T00:10:00Z",
+    "content": "PimEyes es, en la actualidad, una de las inteligencias artificiales que más peligro representa para la privacidad de cualquier persona. De hecho, podría resultar incluso más perjudicial que la contro… [+7425 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Hipertextual"
+    },
+    "author": "Gabriel Erard",
+    "title": "Por qué Apple no debería lanzar un nuevo iPhone este año",
+    "description": "Sí, amigos, sé que con solo leer el título muchos entrarán a este artículo pensando “¿Qué dice este muchacho?”, pero les aseguro que existe una explicación racional para una afirmación tan contundente. Antes que nada, partamos de la base de que es improbable …",
+    "url": "https://hipertextual.com/2022/05/por-que-apple-no-deberia-lanzar-un-nuevo-iphone-este-ano",
+    "urlToImage": "https://i0.wp.com/hipertextual.com/wp-content/uploads/2022/05/david-svihovec-jz9zEXfuyQ8-unsplash-scaled.jpg?fit=2560%2C1604&quality=50&strip=all&ssl=1",
+    "publishedAt": "2022-05-27T22:50:00Z",
+    "content": "Sí, amigos, sé que con solo leer el título muchos entrarán a este artículo pensando ¿Qué dice este muchacho?, pero les aseguro que existe una explicación racional para una afirmación tan contundente.… [+8518 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Hipertextual"
+    },
+    "author": "Rubén Chicharro",
+    "title": "Apple no espera que las ventas del iPhone mejoren este 2022",
+    "description": "Apple parece mostrarte realista en cuanto a sus objetivos de producción de iPhone para este 2022 y cree, según reporta Bloomberg, que las ventas no mejorarán este año respecto a 2021. El citado medio asegura que la compañía de Cupertino también se ha visto af…",
+    "url": "https://hipertextual.com/2022/05/apple-no-espera-que-las-ventas-del-iphone-mejoren-este-2022",
+    "urlToImage": "https://hipertextual.com/wp-content/uploads/2021/10/Apple-trade-in-iphone.jpg",
+    "publishedAt": "2022-05-27T13:25:29Z",
+    "content": "Apple parece mostrarte realista en cuanto a sus objetivos de producción de iPhone para este 2022 y cree, según reporta Bloomberg, que las ventas no mejorarán este año respecto a 2021. El citado medio… [+2623 chars]"
+    },
+    {
+    "source": {
+    "id": "the-next-web",
+    "name": "The Next Web"
+    },
+    "author": "Ivan Mehta",
+    "title": "An in-depth look at the race to charge your phone in mere minutes",
+    "description": "Sorry if this triggers your anxiety: remember how we once to charge our phones overnight so they were ready for action the next day? It took hours to charge devices from 0 to 100%, and we would frantically look for chargers if the battery level went below a c…",
+    "url": "https://thenextweb.com/news/fast-charging-science-history-politics-analysis",
+    "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F05%2FFast-Charging-hed.jpg&signature=eb73b94e68e57fe212518124615fd48a",
+    "publishedAt": "2022-05-27T11:57:26Z",
+    "content": "Sorry if this triggers your anxiety: remember how we once had to charge our phones overnight so they were ready for action the next day?\r\nIt took hours to charge devices from 0 to 100%, and we would … [+11071 chars]"
+    },
+    {
+    "source": {
+    "id": "the-next-web",
+    "name": "The Next Web"
+    },
+    "author": "The Conversation",
+    "title": "Does it matter whose brain cells we use in gadgets of the future?",
+    "description": "The year is 2030 and we are at the world’s largest tech conference, CES in Las Vegas. A crowd is gathered to watch a big tech company unveil its new smartphone. The CEO comes to the stage and announces the Nyooro, containing the most powerful processor ever s…",
+    "url": "https://thenextweb.com/news/does-it-matter-whose-brain-cells-we-use-in-gadgets-of-the-future",
+    "urlToImage": "https://img-cdn.tnwcdn.com/image/neural?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F05%2FCortical-Labs-Brainchip-II-hed.jpg&signature=0a12a7f90a97a34c31a37a2a5a21fd1e",
+    "publishedAt": "2022-05-27T16:00:01Z",
+    "content": "The year is 2030 and we are at the worlds largest tech conference, CES in Las Vegas. A crowd is gathered to watch a big tech company unveil its new smartphone. The CEO comes to the stage and announce… [+7412 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Fast Company"
+    },
+    "author": "Jared Newman",
+    "title": "There’s a big problem with Apple and Google’s plans to nix passwords",
+    "description": "Eliminating the password means trusting that big tech companies won’t lock you into their platforms.\nApple, Google, and Microsoft have big plans to eliminate the password.Read Full Story",
+    "url": "https://www.fastcompany.com/90755838/theres-a-big-problem-with-apple-and-googles-plans-to-nix-passwords",
+    "urlToImage": "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2022/05/poster-companies-to-eliminate-passwords.jpg",
+    "publishedAt": "2022-05-27T00:00:48Z",
+    "content": "Apple, Google, and Microsoft have big plans to eliminate the password.\r\nWorking with a standards group called the FIDO Alliance, all three companies are backing a system in which your phone or comput… [+8278 chars]"
+    }
+    ]
+    }
