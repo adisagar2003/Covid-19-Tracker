@@ -1,0 +1,15 @@
+
+
+
+.newsFrame{
+    float: right;
+    margin-top: -150px;
+    position: relative;
+    left: 170px;
+    margin-left: 130px;
+}
+
+
+.mainLayoutFrame{
+    border: 1
+}

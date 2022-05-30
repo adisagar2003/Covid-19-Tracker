@@ -1,0 +1,27 @@
+.mainFrame{
+    background-color: rgba(0, 0, 0, 0.378);
+    min-width: 1169px;
+    max-width: 1169px;
+    min-height: 500px;
+    margin-left: 140px;
+    margin-top: 60px;
+
+}
+
+.mainDataLayout{
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 280px;
+    max-height: 280px;
+    position: relative;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.471);
+    left: 100px;
+    top: 50px;
+    border: 1px solid white;
+    padding:40px;
+    color: rgba(0, 255, 255, 0.426);
+    font-family: 'fauna';
+    border-radius: 2%;
+    border: none;
+}

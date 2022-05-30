@@ -29,46 +29,21 @@ function PieChart({children,w,h }) {
 
   
   return (
-    
-    <div className={styles.chartLayout}>
-      
-      
+   <div className={styles.covidData}>
+ 
+       <div>
+     Positive cases : {positive}</div>
+     
+     <div>
+     Negative cases : {negative}</div>
+     <br></br>
+     <div>
+     Death cases : {deathIncrease}</div>
 
-
-      <svg className={styles.chartSvj} viewBox={`0 0 ${width} ${height}`} 
-      width= "100%"
-      height= "40%"
-      preserveAspectRatio='xMidYMax meet'
-      >
-
-{  covidData.map((data)=>{
-   
-  useEffect(()=>{
-    setPosition(position+100);
-  },[data])
-    let percentValue = (data/maximumValue)*100;
-    console.log(percentValue,'percentage')
-    console.log(position,'Current Position')
-    
-    return (
-      
-      <rect x={`${position}`} y='0' width = '40' height={`${percentValue}`} fill='blue' />
-      
-    )
-  })}
-
-
-      </svg>
-
-
-
-
-
-
-
-      <button onClick={()=>setPosition(position+10)}>Refresh</button>
-    </div>
+   </div> 
   )
-}
+  }
+
+
 
 export default PieChart

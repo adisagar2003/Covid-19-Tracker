@@ -1,0 +1,22 @@
+.Navbar{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    border-bottom: 1px solid rgba(0, 255, 255, 0.27);
+    border-style:inset;
+    
+}
+.Navbar span:first-child{
+    color: red;
+
+}
+
+.Navbar span{
+    padding: 20px;
+    transition: 0.5s;
+    color: red;
+
+}
+.Navbar span:hover{
+    border: 1px solid aqua;
+}

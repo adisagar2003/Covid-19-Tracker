@@ -14,6 +14,8 @@ import {
 } from "react-router-dom";
 import Footer from './Components/Footer/Footer';
 import { BarElement } from 'chart.js';
+import Frame from './Components/Frame/Frame';
+import ThreeComponent from './Components/ThreeComponent';
 function App() {
   
   return (
@@ -22,17 +24,13 @@ function App() {
     
       <Header />
    
+   <Frame />
      
      
-      <News></News>
-     
-      <GraphLayout>
-     
-       
-        
-      </GraphLayout>
-      <PieChart />
+
       <Footer />
+  
+      
    
 
     </div>
