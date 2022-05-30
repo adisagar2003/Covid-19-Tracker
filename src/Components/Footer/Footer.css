@@ -1,0 +1,63 @@
+.coordinates{
+  font-family: 'fauna';
+  color: rgba(0, 255, 255, 0.645);
+  position: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.footer{
+  position: static;
+  height: 40px;
+  bottom: 0px;
+  background-color: rgb(29, 29, 29);
+  font-family: 'fauna';
+  padding: 80px;
+}
+.icons{
+  position: relative;
+  top: 23px;
+  font-size:30px;
+  color: rgb(149, 149, 149);
+  transition: 0.5s;
+  left: 34px;
+}
+a{
+  color:rgb(149, 149, 149);
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.technologiesUsed{
+  float: right;
+  margin-left: 504px;
+  position: relative;
+  bottom: 60px;
+  border: 1px solid white;
+  border: none;
+  width: 400px;
+
+}
+
+.technologiesUsed{
+  font-size: 20px;
+
+
+}
+
+
+i{
+  position: relative;
+  top:40px;
+  left: 500px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(95, 93, 93);
+  font-size: 12px;
+}
+i a{
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.chartSvj{
+    background-color: red;
+}
+
+.chartSvj::before{
+    content: 'WORK';
+    min-height: 4px;
+    max-height: 4px;
+    border: 1px solid white;
+    color: blue;
+}
+.chartLayout::before{
+    content: '.';
+    font-size: 12px;
+color: rgba(0, 255, 255, 0);
+
+    width: 2vh;
+    display: inline-block;
+    margin: 0 0.1vh 0 0 0.1vh;
+    background-color: rgba(0, 255, 255, 0.449);
+    border: 0.5px solid rgb(7, 202, 224);
+    padding: 1px;
+    margin-bottom: 30px;
+}
+
+.chartLayout::before:hover{
+    
+}

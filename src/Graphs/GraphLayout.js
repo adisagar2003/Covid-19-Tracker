@@ -23,9 +23,9 @@ function GraphLayout() {
       <div class={styles.dataGraph}>
       <BrowserRouter>
       <Routes>
-        <Route exact path='/' element={<About />}></Route>
-        <Route exact path='/bargraph' element={<BarChart />}></Route>
-        <Route exact path='/piechart' element={<PieChart />}></Route>
+        <Route exact path='/' element={<About />} />
+        <Route  path='/bargraph' element={<BarChart />} />
+        <Route  path='/piechart' element={<PieChart />} />
       </Routes>
       </BrowserRouter></div>
 
