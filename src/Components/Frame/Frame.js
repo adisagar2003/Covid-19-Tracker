@@ -24,7 +24,8 @@ function Frame() {
            
               <Route exact path='/' element={<About />} />
               <Route exact path='/data' element={<PieChart />} />           
-              <Route path='/3d' element={<ChartVisuals />} />
+              <Route path='/3d' element={<PieChart />} />
+              <Route path='/chart' element={<ChartVisuals />} />
           </Routes>
           </div>
        

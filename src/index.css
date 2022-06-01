@@ -84,7 +84,9 @@ position: relative;
 }
 
 .PieChart__threeObject{
-  background-color: red;
+
   position: relative;
   bottom: 300px;
+  right: 100px;
+  
 }
