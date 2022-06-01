@@ -42,3 +42,49 @@ code {
   transform: scale(1,1);
 }
 
+
+.donut{
+  position: relative;
+
+
+  z-index: 30;
+  overflow: hidden;
+}
+
+.chartLegend{
+overflow: hidden;
+position: relative;
+
+}
+.actualChart{
+
+  padding-bottom: 40px;
+  position: relative;
+  bottom: 40px;
+ 
+  
+  left: -5px;
+
+}
+.donut__firstLegend{
+  padding-left: 4px;
+  background-color:rgb(90, 151, 197);
+}
+
+.donut__secondLegend{
+  padding-left: 4px;
+  background-color: rgb(12, 187, 120);
+
+
+}
+
+.donut__thirdLegend{
+  padding-left: 4px;
+  background-color: rgb(248, 186, 29);
+}
+
+.PieChart__threeObject{
+  background-color: red;
+  position: relative;
+  bottom: 300px;
+}

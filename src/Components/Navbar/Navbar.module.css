@@ -4,6 +4,7 @@
     gap: 30px;
     border-bottom: 1px solid rgba(0, 255, 255, 0.27);
     border-style:inset;
+    z-index: 1000;
     
 }
 .Navbar span:first-child{

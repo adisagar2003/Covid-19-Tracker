@@ -1,40 +1,61 @@
-import Chart from './components/Chart';
+import React, { Component } from 'react';
+import Chart from 'react-apexcharts'
+import covidJsonData from './Hooks/Covid.json'
 
 
-import React from 'react'
 
-function ChartVisuals() {
-    const data = {
-        chartData: {
-          labels: [
-            'Boston',
-            'Worcester',
-            'Springfield',
-            'Lowell',
-            'Cambridge',
-            'New Bedford'
-          ],
-          datasets: [
-            {
-              data: [617594, 181045, 153060, 106519, 105162, 95072],
-              //backgroundColor:'green',
-              backgroundColor: [
-                'rgba(255, 99, 132, 0.6)',
-                'rgba(54, 162, 235, 0.6)',
-                'rgba(255, 206, 86, 0.6)',
-                'rgba(75, 192, 192, 0.6)',
-                'rgba(153, 102, 255, 0.6)',
-                'rgba(255, 159, 64, 0.6)',
-                'rgba(255, 99, 132, 0.6)'
-              ]
-            }
-          ]
+const positive = covidJsonData.positiveIncrease;
+const negative = covidJsonData.negativeIncrease;
+const deathIncrease  =covidJsonData.deathIncrease;
+const hospitalizedIncrease = covidJsonData.hospitalizedIncrease;  
+class ChartVisuals extends Component {
+  
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      
+      options: {
+        dataLabels:{
+            series: [positive, negative, deathIncrease, ],
+      labels: ['Positive', 'Negative', 'Deaths', ],
+          enabled: true,
+        
+        }
+      ,
+      legend: {
+        show: false
+      },
+      },
+      
+      series: [positive, negative, deathIncrease, ],
+      labels: ['Positive', 'Negative', 'Deaths', ],
+      chartOptions: {
+        labels: ['Positive', 'Negative', 'Deaths'],
+        formatter: function (seriesName) {
+          return 'cases'
         }
       }
-    
-  return (
-    <Chart chartData={data} displayLegend={false} />
-  )
+      
+
+    }
+  }
+
+  render() {
+
+    return (
+      <div className="donut">
+        <div class='chartLegend'>
+       
+        <div><span className='donut__firstLegend'>.</span>Positive</div>
+        <div><span className='donut__secondLegend'>.</span>Negative</div>
+        <div><span className='donut__thirdLegend'>.</span>Deaths</div>
+        </div>
+        <Chart className='actualChart' options={this.state.options} series={this.state.series} type="donut" width="380" />
+      </div>
+    );
+  }
 }
 
-export default ChartVisuals
+export default ChartVisuals;

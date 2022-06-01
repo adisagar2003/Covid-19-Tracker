@@ -1,49 +1,32 @@
-import { BarElement } from 'chart.js'
-import Bar from 'plotly.js/lib/bar'
-import React ,{useEffect, useState}from 'react'
-import styles from './PieChart.module.css'
-import covidJsonData from '../Components/Hooks/Covid.json'
-function PieChart({children,w,h }) {
+import { Flex } from '@react-three/flex'
+import { Box } from '@react-three/flex'
+import React from 'react'
+import { Canvas } from '@react-three/fiber'
+import { Sphere } from '@react-three/drei'
+import { SpotLight } from 'three'
 
-  const positive = covidJsonData.positiveIncrease;
-  const negative = covidJsonData.negativeIncrease;
-  const deathIncrease  =covidJsonData.deathIncrease;
-  const hospitalizedIncrease = covidJsonData.hospitalizedIncrease;  
-  const covidData =[positive,negative,deathIncrease,hospitalizedIncrease]
-  const maximumValue = Math.max(...covidData);
-  const [position,setPosition] = useState(0);
-  const width = 400
-  const height = 250
-  
-  const barChart = ({x})=>{
-      const barPosition = x;
+const PieChart = () => (
+  <Canvas className='PieChart__threeObject' >
+    <SpotLight
+  distance={5}
+  angle={0.15}
+  attenuation={5}
+  anglePower={5} // Diffuse-cone anglePower (default: 5)
+/>
+    <Flex >
+    <Box centerAnchor flexGrow={1}>
       
-   
-    return (
-      <rect x={`${barPosition}`} y='0' width='50' height='100' />
-    )
-  }
-  let x = 4;
-  const bar = barChart({x});
-  console.log(bar,'This is a bar')
-
-  
-  return (
-   <div className={styles.covidData}>
- 
-       <div>
-     Positive cases : {positive}</div>
-     
-     <div>
-     Negative cases : {negative}</div>
-     <br></br>
-     <div>
-     Death cases : {deathIncrease}</div>
-
-   </div> 
-  )
-  }
-
-
-
+    <Sphere args={[1, 16, 16]}>
+            <meshLambertMaterial attach="material" color="white" />
+          </Sphere>
+          <Sphere args={[2, 16, 16]}>
+            <meshLambertMaterial attach="material" color="white" />
+          </Sphere>
+          <Sphere args={[0.5, 16, 16]}>
+            <meshLambertMaterial attach="material" color="white" />
+          </Sphere>
+    </Box>
+    </Flex>
+  </Canvas>
+)
 export default PieChart
