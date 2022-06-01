@@ -9,6 +9,7 @@ import './Frame.css'
 import Box from '../Box'
 import ThreeComponent from '../ThreeComponent'
 import ChartVisuals from '../ChartVisuals'
+import DataReal from '../DataReal'
 function Frame() {
   return (
     <div className='mainFrame'>
@@ -23,7 +24,7 @@ function Frame() {
           <Routes>
            
               <Route exact path='/' element={<About />} />
-              <Route exact path='/data' element={<PieChart />} />           
+              <Route exact path='/data' element={<DataReal />} />           
               <Route path='/3d' element={<PieChart />} />
               <Route path='/chart' element={<ChartVisuals />} />
           </Routes>
