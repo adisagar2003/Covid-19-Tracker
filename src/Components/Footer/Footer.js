@@ -12,7 +12,7 @@ function Footer() {
       <div className='covidTitleName'>
     COVID TRACKER<br></br>
     <span className='icons'>
-     <a className='github' href='/'> <FaGithub /></a>  <a className='envelope' href='/a'><FaEnvelope /></a>   <a className='envelope' href='/a'><FaCode /></a> 
+     <a className='github' href='https://github.com/adisagar2003'> <FaGithub /></a>  <a className='envelope' mailto='adityasagarpython@gmail.com'><FaEnvelope /></a>   <a className='envelope' href=''><FaCode /></a> 
       
     </span>
       </div>
